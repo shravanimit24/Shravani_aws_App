@@ -1,8 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Newsletters from "./pages/newsletter.jsx";
 import Home from "./pages/home.jsx";
-import Events from "./pages/events.jsx";
+
+
+
 function App() {
   return (
 <div>
@@ -10,8 +11,7 @@ function App() {
  <Router>
  <Routes>
    <Route path="/" element={<Home/>} />
-   <Route path="/news" element={<Newsletters />} />
-   <Route path="/events" element={<Events />} />
+   
  </Routes>
 </Router>
 
